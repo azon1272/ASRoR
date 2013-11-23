@@ -32,8 +32,11 @@ gem 'jbuilder', '~> 1.2'
 
 
 group :test do
+  gem "rspec-rails"
   gem 'capybara', '1.1.2'
 end
+
+gem 'protected_attributes'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
