@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Testpro::Application.config.secret_key_base = '28a5f80cb6476c6c2747c3386a76f6f5fa92fe1c8e89f45d40290d94c0f6f5e01c040626cc8e83ebc1872fffceed96a5a0863e73fb2d2391ba2b7752677b838c'
+MainProject::Application.config.secret_key_base = '5d2c5a5cc4d38bd9d324877dafec0d74b54ff72722f653b5d360d9d28dd53e1b6aad08597afef827bca178783b0287629dff1c7cdd49003ccf7af2ee50792351'

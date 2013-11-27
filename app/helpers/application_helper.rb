@@ -1,5 +1,6 @@
 # encoding: utf-8
 module ApplicationHelper
+  # Returns the full title on a per-page basis.
   def full_title(page_title)
     base_title = "Автоматизована система вантажоперевезення"
     if page_title.empty?
@@ -8,4 +9,5 @@ module ApplicationHelper
       "#{base_title} | #{page_title}"
     end
   end
+
 end
