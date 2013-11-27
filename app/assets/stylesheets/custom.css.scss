@@ -1,11 +1,11 @@
 @import "bootstrap";
 
+/* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
-$grayLight: #999;
-$grayDarker: #101001;
 
-/*
+/* universal */
+
 html {
   overflow-y: scroll;
 }
@@ -19,7 +19,7 @@ section {
 }
 
 textarea {
-  resize: horizontal;
+  resize: vertical;
 }
 
 .center {
@@ -29,7 +29,7 @@ textarea {
   }
 }
 
-
+/* typography */
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
@@ -57,7 +57,7 @@ p {
 }
 
 
-
+/* header */
 
 #logo {
   float: left;
@@ -75,7 +75,8 @@ p {
   }
 }
 
-*/
+/* footer */
+
 footer {
   margin-top: 45px;
   padding-top: 5px;

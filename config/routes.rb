@@ -1,7 +1,7 @@
 MainProject::Application.routes.draw do
-  get "route/get_route"
-  get "route/view_information"
-  #get "welcome/index"
+  get "welcome/index"
+  resources :mains
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
