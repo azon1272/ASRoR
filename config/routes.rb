@@ -1,8 +1,13 @@
 MainProject::Application.routes.draw do
   get "welcome/index"
+  
   resources :mains
   resources :users
+  resources :sessions, only: [:new, :create, :destroy]
 
+  match '/signup',  to: 'users#new', via: :get
+  match '/signin',  to: 'sessions#new', via: :post
+  match '/signout', to: 'sessions#destroy', via: :delete
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
