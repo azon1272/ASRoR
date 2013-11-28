@@ -1,0 +1,28 @@
+<% provide(:title, @user.name) %>
+<div>
+<div class="pull-l">
+	<div class="span3">
+	<div class ="well sidebar-nav">
+		
+	    <ul class="nav nav-list">
+			<li class="nav-header">Заголовок</li>
+			<li class="active"><a href="/welcome/index">На главную</a></li>
+			<li><a href="#">Help</a></li>
+			<li class="divider"></li>
+			<li><a href="#">Библиотека</a></li>
+  		</ul>
+  	</div>
+</div></div>
+<div class="span8">
+<div class="center hero-unit">
+<div class="row">
+  <aside class="span4">
+    <section>
+      <h1>
+        <%= gravatar_for @user %>
+        <%= @user.name %>
+      </h1>
+    </section>
+  </aside>
+</div>
+</div>
